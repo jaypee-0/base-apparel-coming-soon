@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+    <title>Base Apparel Landing page</title>
+</head>
+<body>
+    <div class="container d-sm-block d-md-none">        
+    <nav class="py-3 bg-none">
+        <div class="logo">
+            <img src="./assets/logo.svg" alt="logo">
+        </div>
+    </nav>
+    </div>
+    <section class="d-flex">
+        <!-- Text -->
+        <div id="texts" class="container">
+            <nav class="navbar py-5 bg-none d-none d-md-block d-lg-block">
+                <div class="logo">
+                    <img src="./assets/logo.svg" alt="logo">
+                </div>
+            </nav>
+            <div id="texts-center" class="d-flex flex-column align-items-left justify-content-center min-height">            
+                    <h1 class="fw-400 de-red">WE'RE</h1>
+                    <h1 class="dark-gray-red">COMING<br>SOON</h1>
+                    <p class="de-red py-4">Hello fellow shoppers! We're currently building our new fashion store. Add your email below to stay up-to-date with announcements and our launch deals.</p>
+
+                    <form>
+                        <div class="d-flex flex-row">
+                            <input class="w-100 border-1 rounded-pill py-3 ps-3" type="email" placeholder="Email Address" required>
+                            <button class="bg-pink border rounded-pill py-3 px-5"><img src="./assets/icon-arrow.svg" alt=""></button>
+                        </div>
+                    </form>                
+            </div>
+        </div>
+        <!-- Hero -->
+        <div id="hero" class="">
+            <img class="d-none d-sm-none d-lg-block img-fluid" src="./assets/hero-desktop.jpg" alt="hero-desktop">
+            <img class="d-sm-block d-md-none img-fluid pb-4" src="./assets/hero-mobile.jpg" alt="hero-mobile">
+        </div>
+    </section>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
